@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="wastegreen">#00cd00</color>
+    <color name="backblue">#75c2e7</color>
+    <color name="regularblue">#0da8f4</color>
+    <color name="buttonblue">#2a8eba</color>
+    <color name="steelback">#cccccc</color>
+    <color name="infoyellow">#ffff66</color>
+    <color name="powerred">#a52a2a</color>
+
+    <color name="statwaste">#006400</color>
+    <color name="stathydro">#104e8b</color>
+    <color name="statpower">#ff3030</color>
+    <color name="emerald">#e5e500</color>
+    <color name="databack">#2f363d</color>
+
+
+
+</resources>

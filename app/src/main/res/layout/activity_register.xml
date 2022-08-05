@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:background="@drawable/buildings">
+
+    <ImageView
+        android:id="@+id/register_applogo"
+        android:layout_width="@dimen/_220sdp"
+        android:layout_height="@dimen/_90sdp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:src="@drawable/finallogo">
+    </ImageView>
+
+    <EditText
+        android:id="@+id/register_username_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_applogo"
+        android:background="@drawable/inputdesign"
+        android:padding="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_15sdp"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:hint="Email or Phone Number"
+        android:inputType="text"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:textSize="@dimen/_12ssp"
+        android:textStyle="bold">
+    </EditText>
+
+    <EditText
+        android:id="@+id/register_phone_number_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_username_input"
+        android:background="@drawable/inputdesign"
+        android:padding="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_15sdp"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_6sdp"
+        android:hint="Username (no spaces or fullstops)"
+        android:inputType="text"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:textSize="@dimen/_12ssp"
+        android:textStyle="bold">
+    </EditText>
+
+
+    <EditText
+        android:id="@+id/register_password_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_phone_number_input"
+        android:background="@drawable/inputdesign"
+        android:padding="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_15sdp"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_6sdp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:textSize="@dimen/_12ssp"
+        android:textStyle="bold">
+    </EditText>
+
+
+    <Button
+        android:id="@+id/register_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/register_password_input"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginRight="@dimen/_15sdp"
+        android:background="@drawable/buttons"
+        android:padding="@dimen/_17sdp"
+        android:textAllCaps="false"
+        android:textSize="@dimen/_14ssp"
+        android:text="Create Account"
+        android:textColor="@android:color/white">
+    </Button>
+
+    <Button
+        android:id="@+id/terms_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/register_btn"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginRight="@dimen/_15sdp"
+        android:background="@drawable/buttons"
+        android:padding="@dimen/_17sdp"
+        android:textAllCaps="false"
+        android:textSize="@dimen/_10ssp"
+        android:text="By creating an account and utilising this application, you agree to the terms and conditions. Click to view"
+        android:textColor="@android:color/white">
+    </Button>
+
+
+
+
+
+
+
+
+</RelativeLayout>

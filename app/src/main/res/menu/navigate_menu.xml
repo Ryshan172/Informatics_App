@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/homenav"
+        android:icon="@drawable/ic_more_vert_black_24dp"
+        android:title="Home"
+        app:showAsAction="never">
+
+    </item>
+
+    <item android:id="@+id/wastenav"
+        android:title="Waste Management"
+        app:showAsAction="never">
+    </item>
+
+    <item android:id="@+id/waternav"
+        android:title="Water Management"
+        app:showAsAction="never">
+    </item>
+
+    <item android:id="@+id/powernav"
+        android:title="Power Management"
+        app:showAsAction="never">
+    </item>
+
+    <item android:id="@+id/helpnav"
+        android:title="Help"
+        app:showAsAction="never">
+    </item>
+
+    <item android:id="@+id/logoutnav"
+        android:icon="@drawable/ic_logouticon"
+        android:title="Log Out"
+        app:showAsAction="ifRoom">
+    </item>
+
+
+</menu>

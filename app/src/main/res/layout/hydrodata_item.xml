@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/steelback"
+    android:layout_margin="@dimen/_3sdp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/image_view_wasteuploads"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_200sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:background="@android:color/white">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/text_view_wastecityname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="City or town name"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/_14ssp"
+            android:padding="@dimen/_3sdp"
+            android:layout_gravity="center_horizontal"
+            android:background="@android:color/white">
+        </TextView>
+
+        <TextView
+            android:id="@+id/text_view_issuedescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Issue description"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/_14ssp"
+            android:padding="@dimen/_3sdp"
+            android:layout_gravity="center_horizontal"
+            android:background="@android:color/white">
+        </TextView>
+
+        <TextView
+            android:id="@+id/text_view_wastelocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Geolocation of issue"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/_14ssp"
+            android:padding="@dimen/_3sdp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/_8sdp"
+            android:background="@android:color/white">
+        </TextView>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

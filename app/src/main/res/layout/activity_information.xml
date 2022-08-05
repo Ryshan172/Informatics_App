@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InformationActivity"
+    android:background="@drawable/buildings">
+
+    <TextView
+        android:id="@+id/info_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="How to use this app"
+        android:textSize="@dimen/_18ssp"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@android:color/white"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:paddingHorizontal="@dimen/_5sdp"
+        android:paddingVertical="@dimen/_5sdp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/info_textview2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The Sturtium Informatics System was developed for the collection of data on environmental, infrastructure and service delivery issues experienced by South African citizens"
+        android:textSize="@dimen/_11ssp"
+        android:textAlignment="gravity"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@android:color/white"
+        android:layout_below="@+id/info_textview"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:paddingHorizontal="@dimen/_5sdp"
+        android:paddingVertical="@dimen/_5sdp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/info_textview3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Use this app to report issues within the available categories. Reported issues will be available for viewing on the system by service providers, research groups and NGOs. Make sure to include your correct town or city when reporting"
+        android:textSize="@dimen/_11ssp"
+        android:textAlignment="gravity"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@android:color/white"
+        android:layout_below="@+id/info_textview2"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:paddingHorizontal="@dimen/_5sdp"
+        android:paddingVertical="@dimen/_5sdp">
+    </TextView>
+
+    <Button
+        android:id="@+id/websupport_btna"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/info_textview3"
+        android:background="@color/infoyellow"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:paddingHorizontal="@dimen/_5sdp"
+        android:paddingVertical="@dimen/_5sdp"
+        android:text="Click for more Information"
+        android:textSize="@dimen/_11ssp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="@dimen/_5sdp">
+
+    </Button>
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

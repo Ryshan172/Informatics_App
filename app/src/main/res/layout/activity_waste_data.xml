@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WasteDataActivity"
+    android:background="@color/databack">
+
+    <Button
+        android:id="@+id/button_choose_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pick Image"
+        android:textSize="@dimen/_11ssp"
+        android:layout_marginTop="@dimen/_20sdp">
+    </Button>
+
+    <Button
+        android:id="@+id/button_getlocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:textSize="@dimen/_11ssp"
+        android:layout_below="@id/button_choose_image">
+    </Button>
+
+
+    <EditText
+        android:id="@+id/edit_text_city_name"
+        android:layout_width="@dimen/_291sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_marginLeft="@dimen/_110sdp"
+        android:textSize="@dimen/_11ssp"
+        android:hint="Enter City/Town"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/edit_text_description"
+        android:layout_width="@dimen/_291sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_marginLeft="@dimen/_110sdp"
+        android:textSize="@dimen/_11ssp"
+        android:hint="Enter issue description"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/edit_text_city_name">
+    </EditText>
+
+    <EditText
+        android:id="@+id/edit_text_geolocation"
+        android:layout_width="@dimen/_291sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_marginLeft="@dimen/_110sdp"
+        android:textSize="@dimen/_11ssp"
+        android:hint="Enter/Click location"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/edit_text_description">
+    </EditText>
+
+    <ImageView
+        android:id="@+id/wasteimage_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/edit_text_geolocation"
+        android:layout_above="@id/progress_bar"
+        android:background="@color/steelback"
+        android:scaleType="centerInside">
+
+    </ImageView>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/button_upload"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_marginBottom="@dimen/_10sdp">
+
+    </ProgressBar>
+
+    <Button
+        android:id="@+id/button_upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/_11ssp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:text="Upload">
+
+    </Button>
+
+
+
+
+</RelativeLayout>

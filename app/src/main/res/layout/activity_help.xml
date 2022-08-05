@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HelpActivity"
+    android:background="@drawable/tech">
+
+    <TextView
+        android:id="@+id/info_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Help"
+        android:textSize="@dimen/_18ssp"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@android:color/white"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:paddingHorizontal="@dimen/_5sdp"
+        android:paddingVertical="@dimen/_5sdp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/info_textview2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Step 1: Enter the name of your town or city in South Africa"
+        android:textSize="@dimen/_11ssp"
+        android:textAlignment="gravity"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@android:color/white"
+        android:layout_below="@+id/info_textview"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:paddingHorizontal="@dimen/_5sdp"
+        android:paddingVertical="@dimen/_5sdp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/info_textview3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Step 2: Select PICK IMAGE to select a picture of the problem being reported. If the file is large, the image may be present but not displayed. Do not worry as long as you have selected an image"
+        android:textSize="@dimen/_11ssp"
+        android:textAlignment="gravity"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@android:color/white"
+        android:layout_below="@+id/info_textview2"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:paddingHorizontal="@dimen/_5sdp"
+        android:paddingVertical="@dimen/_5sdp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/info_textview4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Step 3: Describe the issue being reported in the correct category, e.g. illegal dumping, burst water pipe, water pollution, infrastructure damage etc."
+        android:textSize="@dimen/_11ssp"
+        android:textAlignment="gravity"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@android:color/white"
+        android:layout_below="@+id/info_textview3"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:paddingHorizontal="@dimen/_5sdp"
+        android:paddingVertical="@dimen/_5sdp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/info_textview5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Step 4: Click LOCATION and wait for the coordinates of the issue to display. Once this is completed, select UPLOAD and wait for the upload to complete"
+        android:textSize="@dimen/_11ssp"
+        android:textAlignment="gravity"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@android:color/white"
+        android:layout_below="@+id/info_textview4"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:paddingHorizontal="@dimen/_5sdp"
+        android:paddingVertical="@dimen/_5sdp">
+    </TextView>
+
+    <Button
+        android:id="@+id/websupport_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/info_textview5"
+        android:background="@color/infoyellow"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:paddingHorizontal="@dimen/_5sdp"
+        android:paddingVertical="@dimen/_5sdp"
+        android:text="Click for more support"
+        android:textSize="@dimen/_11ssp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="@dimen/_5sdp">
+
+    </Button>
+
+
+
+
+</RelativeLayout>
